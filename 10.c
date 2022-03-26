@@ -1,3 +1,4 @@
+// WAP to find out whether the entered number is Armstrong or not
 #include<stdio.h>  
 #include<conio.h>
 int main()    
@@ -22,3 +23,7 @@ int main()
     }
  return 0;
 }
+
+
+/*Enter the digit=153
+The digit is Armstrong*/

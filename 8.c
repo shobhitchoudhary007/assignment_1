@@ -1,3 +1,4 @@
+//If the ages of A, B and C are input through the keyboard, write a program to determine the youngest of the three.
 #include<stdio.h>  
 #include<conio.h>
 int main()    
@@ -29,3 +30,10 @@ int main()
       }
  return 0;  
 }
+
+
+//Output
+//Enter the age of A=3
+//Enter the age of B=4
+//Enter the age of C=5
+//A is youngest

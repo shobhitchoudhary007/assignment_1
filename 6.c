@@ -1,16 +1,22 @@
+//WAP to find whether the year is leap or not
 #include<stdio.h>  
-#include<conio.h>
-int main()    
-{    
- int n,sum=0,m;    
- printf("Enter a number:");    
- scanf("%d",&n);    
- while(n>0)    
-      {    
-       m=n%10;    
-       sum=sum+m;    
-       n=n/10;    
-      }    
- printf("Sum is=%d",sum);    
- return 0;
+#include<conio.h>  
+int main() 
+{  
+    int year;  
+    printf("Enter a year: ");  
+    scanf("%d", &year);  
+    if(year%4==0)  
+      {  
+        printf("%d is a leap year",year);  
+      } 
+    else {  
+          printf("%d is not a leap year",year);  
+         }  
+    return 0;  
 }
+
+
+//Output
+//Enter a year: 2020
+//2020 is a leap year

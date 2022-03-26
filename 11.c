@@ -1,3 +1,4 @@
+//WAP to find whether the entered number is prime or not.
 #include<stdio.h>  
 #include<conio.h>
 int main()    
@@ -5,7 +6,7 @@ int main()
  int n,i,c=0;
  printf("Enter the digit= ");
  scanf("%d",&n);
- for(i=1;i<=n;i++)
+ for(i=1;i<=n/2;i++)
     {
      if(n%i==0)
        {
@@ -22,3 +23,8 @@ int main()
     }
  return 0;
 }
+
+
+//Output
+//Enter the digit= 12
+//The 12 is Not Prime

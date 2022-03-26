@@ -1,3 +1,4 @@
+//WAP to find the sum of the digits of a 4 digit number
 #include<stdio.h>  
 #include<conio.h>
 int main()    
@@ -14,3 +15,8 @@ int main()
  printf("Sum is=%d",sum);    
  return 0;
 }
+
+
+//Output
+//Enter a number:234
+//Sum is=9

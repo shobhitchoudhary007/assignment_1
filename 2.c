@@ -1,3 +1,4 @@
+//WAP to swap two variables with and without using third variable
 #include<stdio.h> 
 #include<conio.h> 
 int main()    
@@ -10,8 +11,15 @@ int main()
     a=a+b;    
     b=a-b;    
     a=a-b;    
-    printf("\nAfter swap\n");
-    printf("a=%d",a);
-    printf("b=%d",b);    
+    printf("After swap");
+    printf("\na=%d",a);
+    printf("\nb=%d",b);    
     return 0;  
 }
+
+//Output
+//Enter the first variable=5
+//Enter the second variable=6
+//After swap
+//a=6
+//b=5

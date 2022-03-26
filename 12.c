@@ -1,3 +1,4 @@
+//WAP to find the factorial value of any number.
 #include<stdio.h>  
 #include<conio.h>
 int main()    
@@ -12,3 +13,9 @@ int main()
  printf("Factorial of %d is %d",n,fact);
  return 0;
 }
+
+
+
+//Output
+//Enter the digit=5
+//Factorial of 5 is 120

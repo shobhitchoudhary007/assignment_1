@@ -1,3 +1,4 @@
+//WAP to find the area & perimeter of a rectangle
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -16,3 +17,9 @@ int main()
     printf("\nThe perimeter is=%f",perimeter);
     return 0;
 }
+
+//Output:
+//Enter the length=2
+//Enter the breadth=3
+//The area is=6.000000
+//The perimeter is=10.000000

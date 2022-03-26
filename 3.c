@@ -1,3 +1,4 @@
+//WAP to find the reverse of a 4 digit number
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -14,3 +15,7 @@ int main()
     printf("Reversed number = %d", rev);
     return 0;
 }
+
+//Output
+//Enter an integer = 123
+//Reversed number = 321

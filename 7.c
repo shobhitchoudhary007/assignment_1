@@ -1,3 +1,4 @@
+//WAP to find the reverse of a 4 digit number and compare it to the original number.
 #include<stdio.h>  
 #include<conio.h>
 int main()    
@@ -23,3 +24,9 @@ int main()
     }
  return 0;
 }
+
+
+//Output
+//Enter the digit=321
+//The reverse digit is=123
+//The Original digit=321 is not equal to its Reverse digit=123
